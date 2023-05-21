@@ -1,0 +1,53 @@
+.main {
+    // width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e4e4e4;
+}
+
+.wrapper {
+    border: 1px solid #aeadad;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px 5px #aeadad;
+    padding: 20px 10px 20px 20px;
+}
+
+.row {
+    width: 100%;
+    padding: 5px;
+}
+
+.col {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+label {
+    display: block;
+    color: #999;
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+input[type="text"] , select, button {
+    padding: 5px 8px;
+    font-weight: 500;
+}
+
+input[type="text"] , select {
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 5px 8px;
+    border: 1px solid #3696be;
+    background-color: #3696be;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+#results {
+    font-size: 18px;
+    font-weight: 600;
+}
